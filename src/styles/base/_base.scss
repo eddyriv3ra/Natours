@@ -1,4 +1,3 @@
-/* Removed margin and padding in all the proyect at first*/
 *,
 *::after,
 *::before {
@@ -8,6 +7,8 @@
 }
 
 html {
+  // this defines what 1 rem is 10px
+  // 100% is 16px
   font-size: 62.5%;
 }
 /* This line is to set a default value for the body */
@@ -16,7 +17,7 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
+  color: $color-grey-dark;
   padding: 3rem;
   box-sizing: border-box;
 }

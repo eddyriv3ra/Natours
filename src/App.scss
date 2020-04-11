@@ -1,0 +1,59 @@
+@import "styles/abstracts/variables";
+@import "styles/abstracts/mixins";
+@import "styles/components/button";
+@import "styles/components/composition";
+@import "styles/components/feature-box";
+@import "styles/components//story";
+@import "styles/components/bg-video";
+@import "styles/components/form";
+@import "styles/components/card";
+@import "styles/components/popup";
+@import "styles/layout/header";
+@import "styles/layout/grid";
+@import "styles/layout/footer";
+@import "styles/layout/navigation";
+@import "styles/base/typography";
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
